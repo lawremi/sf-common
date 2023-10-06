@@ -1,6 +1,9 @@
 #ifndef __SFWIKI_STRING_H
 #define __SFWIKI_STRING_H
 
+#include <stdexcept>
+#include <memory>
+
 #include "types.h"
 
 namespace sfwiki {

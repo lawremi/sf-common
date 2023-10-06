@@ -84,7 +84,7 @@ namespace sfwiki {
 
 		/* Set class methods */
 		void SetString(const char_t* pString) { m_String = pString; }
-		void SetString(const string* pString) { if (pString) m_String = *pString; else m_String.empty(); }
+		void SetString(const string* pString) { if (pString) m_String = *pString; else m_String.clear(); }
 		void SetString(const string String) { m_String = String; }
 
 		void SetLoadLocalString(const bool Flag) { FlipFlagBits(m_Flags, LSTRING_FLAG_LOADLOCAL, Flag); }

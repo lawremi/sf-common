@@ -138,7 +138,7 @@ namespace sfwiki {
 		}
 
 		/* Return an empty string */
-		String.empty();
+		String.clear();
 		return String;
 	}
 	
