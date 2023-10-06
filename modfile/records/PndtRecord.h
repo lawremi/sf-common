@@ -8,6 +8,7 @@
 #include "../subrecords/FnamPndtSubrecord.h"
 #include "../subrecords/GnamPndtSubrecord.h"
 #include "../subrecords/HnamPndtSubrecord.h"
+#include "../subrecords/KwdaSubrecord.h"
 
 
 namespace sfwiki {

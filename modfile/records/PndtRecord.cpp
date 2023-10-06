@@ -41,7 +41,7 @@ namespace sfwiki {
 		DEFINE_SUBRECCREATE(NAME_INAM, CDataSubrecord::Create)
 		DEFINE_SUBRECCREATE(NAME_KNAM, CDataSubrecord::Create)
 		DEFINE_SUBRECCREATE(NAME_KSIZ, CDataSubrecord::Create)
-		DEFINE_SUBRECCREATE(NAME_KWDA, CDataSubrecord::Create)
+		DEFINE_SUBRECCREATE(NAME_KWDA, CKwdaSubrecord::Create)
 		DEFINE_SUBRECCREATE(NAME_MCQP, CDataSubrecord::Create)
 		DEFINE_SUBRECCREATE(NAME_NNAM, CDataSubrecord::Create)
 		DEFINE_SUBRECCREATE(NAME_PCCC, CDataSubrecord::Create)
