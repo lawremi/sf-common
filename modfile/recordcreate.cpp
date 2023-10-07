@@ -21,6 +21,7 @@
 #include "records/gmstrecord.h"
 #include "records/inforecord.h"
 #include "records/iresrecord.h"
+#include "records/kywdrecord.h"
 #include "records/lctnrecord.h"
 #include "records/lscrrecord.h"
 #include "records/mgefrecord.h"
@@ -64,6 +65,7 @@ namespace sfwiki {
 		{ &NAME_GMST, CGmstRecord::Create },
 		{ &NAME_INFO, CInfoRecord::Create },
 		{ &NAME_IRES, CIresRecord::Create },
+		{ &NAME_KYWD, CKywdRecord::Create },
 		{ &NAME_LCTN, CLctnRecord::Create },
 		{ &NAME_LSCR, CLscrRecord::Create },
 		{ &NAME_MGEF, CMgefRecord::Create },
